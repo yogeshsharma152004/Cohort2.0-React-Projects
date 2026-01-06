@@ -1,8 +1,10 @@
+import HeroImg from '../assets/center.webp'
+
 const Hero = () => {
   return (
     <section className="main">
       <div className="upper">
-        <img src="./src/assets/center.webp" alt="" />
+        <img src={HeroImg} alt="" />
 
         <div className="content">
           <div className="top">
@@ -24,7 +26,7 @@ const Hero = () => {
             <div className="left">
               <p>
                 Train with real professionals. <br />
-                Get the real results.{" "}
+                Get the real results.
               </p>
 
               <div className="profile">
@@ -57,11 +59,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="center">
-         <div className="top">
-
-         </div>
-      </div>
+      
     </section>
   );
 };

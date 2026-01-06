@@ -1,3 +1,6 @@
+import Racket from '../assets/racket.jpg'
+import Balls from '../assets/balls.jpg'
+
 const Services = () => {
   return (
     <section className='services'>
@@ -10,7 +13,7 @@ const Services = () => {
                 <p>Explore More <i className="ri-arrow-right-up-long-line"></i></p>
             </div>
             <div className="card card2">
-                <img src="./src/assets/racket.jpg" alt="" />
+                <img src={Racket} alt="" />
 
                 <p>Training Program</p>
                     
@@ -20,7 +23,7 @@ const Services = () => {
                     
             </div>
             <div className="card card3">
-                <img src="./src/assets/balls.jpg" alt="" />
+                <img src={Balls} alt="" />
 
                 <div className="top">
                     <p>Court Access</p>

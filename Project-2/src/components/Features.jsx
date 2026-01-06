@@ -1,9 +1,12 @@
+import Tennis from '../assets/tennis.png'
+import Yoga from '../assets/yoga.jpg'
+
 const Features = () => {
   return (
     <section className="feature">
       <div className="cards">
         <div className="card card-1">
-          <img src="./src/assets/tennis.png" alt="" />
+          <img src={Tennis} alt="Tennis" />
 
           <p>
             Professional hard courts
@@ -30,7 +33,7 @@ const Features = () => {
         </div>
 
         <div className="card card-2">
-          <img src="./src/assets/yoga.jpg" alt="" />
+          <img src={Yoga} alt="yoga" />
 
           <p>Private & Group Lessons</p>
         </div>
