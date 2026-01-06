@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@font-face {
+    font-family: chill;
+    src: url(./fonts/63cffc0a3942456e003bc265_Chillax-Regular.woff);
+}
+@font-face {
+    font-family: satoshi;
+    src: url(./fonts/63cffc20aa8997095067596f_Satoshi-Light.woff);
+}
+@font-face {
+    font-family:robo;
+    src: url(./fonts/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2);
+}
+body::-webkit-scrollbar{
+    display: none;
+}
