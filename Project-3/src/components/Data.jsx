@@ -1,30 +1,21 @@
-import React from 'react'
+import React from "react";
+import Datacard from "./smallcomponents/Datacard";
 
 const Data = () => {
   return (
-    <section className='grid grid-rows-2 grid-cols-2 gap-8 text-center lg:grid-cols-4 
-    text-white font-[chill] py-5 '>
-        <div className='flex flex-col gap-3 '>
-            <h3 className='text-xl text-[#ffffffba]'>DESIGNERS</h3>
-            <h2 className='text-5xl'>150+</h2>
-        </div>
+    <section
+      className="grid grid-rows-2 grid-cols-2 gap-8 text-center lg:grid-cols-4 
+    text-white font-[chill] py-5 "
+    >
+      <Datacard title="DESIGNERS" number="150+" />
 
-        <div className='flex flex-col gap-3'>
-            <h3 className='text-xl text-[#ffffffba]'>CLIENTS</h3>
-            <h2 className='text-5xl'>500+</h2>
-        </div>
+      <Datacard title="CLIENTS" number="500+" />
 
-        <div className='flex flex-col gap-3'>
-            <h3 className='text-xl text-[#ffffffba]'>MASTERPICES</h3>
-            <h2 className='text-5xl'>20k+</h2>
-        </div>
+      <Datacard title="MASTERPICES" number="20k" />
 
-        <div className='flex flex-col gap-3'>
-            <h3 className='text-xl text-[#ffffffba]'>EVENTS</h3>
-            <h2 className='text-5xl'>50+</h2>
-        </div>
+      <Datacard title="EVENTS" number="50+" />
     </section>
-  )
-}
+  );
+};
 
-export default Data
+export default Data;
