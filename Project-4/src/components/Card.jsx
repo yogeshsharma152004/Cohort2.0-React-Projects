@@ -2,8 +2,7 @@ import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 const Card = ({ city }) => {
   return (
-    <section
-    >
+    <section>
       <div className="h-110 w-84 bg-white rounded-lg overflow-hidden p-2">
         <img
           className="h-64 w-full rounded-lg object-cover"

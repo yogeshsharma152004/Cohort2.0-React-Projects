@@ -151,7 +151,7 @@ const Details = () => {
 
     
     
-       <div className=' bg-black px-10 py-6  grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-14 items-center justify-center'>
+       <div className=' bg-black px-10 py-6  grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-6   md:gap-14 items-center justify-center gap-6'>
            {cities.map(function(data ,index){
             return <Card city={data} index={index}/>
            })}
