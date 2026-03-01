@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+body{
+  background-color: rgba(34, 36, 45, 0.845); 
+  height: 100%;
+  width: 100%;
+}
+.main{
+  
+ padding: 50px;
+ display: flex;
+ gap: 30px;
+ flex-wrap: wrap;
+ 
+}
+form{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 60px 30px;
+  width: fit-content;
+  border-radius: 10px;
+  
+  
+}
+form input {
+  border: 2px solid black;
+  padding:3px 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  
+}
+form button{
+  background-color:black;
+  color: white;
+  width: fit-content;
+  padding: 4px 22px;
+  border-radius: 6px;
+  font-size: 25px;
+  
+}
+
+form button:active{
+  scale: 0.9;
+}
+.card{
+  height: 250px;
+  width: 240px;
+  background-color: rgba(253, 253, 255, 0.879);
+  display: flex;
+  flex-direction: column;
+ 
+padding: 20px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+gap: 8px;
+
+
+}
+.card img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+ 
+  
+}
+.card h1{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card h3{
+  font-size: 18px;
+  font-weight: 400;
+}
