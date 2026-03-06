@@ -75,7 +75,7 @@ const type = promise.elem.types[0].type.name;
    
          <h1 className='font-semibold text-3xl text-black '>  {promise.elem.name} </h1> 
 
-         <p className={`flex items-center gap-2 capitalize mt-2 font-medium text-2xl  font-semibold  px-5 py-1 rounded-lg ${typeColors[promise.elem.types[0].type.name]}`}> {typeIcons[type]}
+         <p className={`flex items-center gap-2 capitalize mt-2  text-2xl  font-semibold  px-5 py-1 rounded-lg ${typeColors[promise.elem.types[0].type.name]}`}> {typeIcons[type]}
   {type}</p>
 
          
