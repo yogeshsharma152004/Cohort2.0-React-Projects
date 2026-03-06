@@ -46,14 +46,19 @@ const App = () => {
   },[])
 
   return (
-    <div className="bg-black h-auto p-20 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-6   md:gap-14 items-center justify-center gap-6  text-white ">
-        
+    <div className="bg-black h-auto flex flex-col items-center">
+      <img className="w-40 " src="./src/assets/poke.png" alt="" />
+      <div className=" p-20 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-6   md:gap-14 items-center justify-center gap-10  text-white ">
+          
+          
 
         {allData.map((elem,index) => {
          return <Card key={index} elem={elem} />
           
         })}
     </div>
+    </div>
+    
   )
 }
 
