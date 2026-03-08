@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@font-face {
+  font-family:zagma;
+  src: url('./fonts/F37ZagmaSerif_Book-s.p.c233e693.woff2');
+}
+@font-face {
+  font-family: zitalic;
+  src: url('./fonts/F37ZagmaSerif_BookItalic-s.p.fbd54237.woff2');
+}
+@font-face {
+  font-family: neue;
+  src: url('./fonts/NeueHaasGroteskText\(RoundDots\)_65Medium_Web-s.p.0f4e8e9f.woff2');
+}
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+} */
